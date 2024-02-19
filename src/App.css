@@ -1,0 +1,51 @@
+.App {
+  height: 100%;
+  padding-top: 10px;
+  background-image: url('/src/imagenes/fondo_selva.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Ajusta según tus necesidades */
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.freecodecamp-logo-contenedor {
+  width: 40%;
+  height: 50px;
+  margin: 8px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #99ffe7;
+  border: 5px whitesmoke solid;
+  border-radius: 30px;
+}
+
+.freecodecamp-logo {
+  height: 40px;
+  
+}
+
+.contenedor-calculadora {
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background: linear-gradient(to bottom, #99ffe7, whitesmoke);
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+.fila {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
